@@ -32,13 +32,29 @@ body{
         border-radius: 50%;
         border-color: rgb(0, 255, 213);
     }
-    25%{
-        transform: translate(-50%,-50%) translateY(500px) rotateZ(100deg);
+    10%{
         border-radius: 20px;
         border-color: rgb(195, 0, 255);
     }
+    25%{
+        transform: translate(-50%,-50%) translateY(500px) rotateZ(180deg);
+        border-radius: 20px;
+        border-color: rgb(195, 0, 255);
+    }
+    40%{
+        border-radius: 20px;
+        border-color: rgb(195, 0, 255);
+    }
+    60%{
+        border-radius: 20px;
+        border-color: rgb(255, 238, 0);
+    }
     75%{
-        transform: translate(-50%,-50%) translateY(-500px) rotateZ(100deg);
+        transform: translate(-50%,-50%) translateY(-500px) rotateZ(180deg);
+        border-radius: 20px;
+        border-color: rgb(255, 238, 0);
+    }
+    90%{
         border-radius: 20px;
         border-color: rgb(255, 238, 0);
     }
